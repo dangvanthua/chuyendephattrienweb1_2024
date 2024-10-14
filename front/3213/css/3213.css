@@ -1,0 +1,54 @@
+.row-wrapper .heading-secondary {
+  font-size: 30px;
+  font-weight: 700;
+  color: #333;
+}
+.row-wrapper .heading-sub {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.3;
+}
+.row-wrapper span {
+  font-style: italic;
+  font-weight: 300;
+  color: #444;
+}
+.row-wrapper .text-sub {
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+}
+.row-wrapper .btn-show {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  transition: gap 0.5s ease-in-out;
+}
+.row-wrapper .btn-show:hover {
+  gap: 10px;
+}
+.row-wrapper .btn-show .text-sub {
+  color: #fff;
+}
+.row-wrapper .btn-show i {
+  color: #fff;
+}
+.row-wrapper .link-show {
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: gap 0.5s ease-in-out;
+}
+.row-wrapper .link-show:hover {
+  text-decoration: none;
+  gap: 10px;
+}
+.row-wrapper .link-show i {
+  color: #444;
+}
