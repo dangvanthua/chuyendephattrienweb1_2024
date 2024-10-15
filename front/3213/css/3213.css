@@ -1,3 +1,6 @@
+.row-wrapper {
+  margin-top: 50px;
+}
 .row-wrapper .heading-secondary {
   font-size: 30px;
   font-weight: 700;
@@ -51,4 +54,16 @@
 }
 .row-wrapper .link-show i {
   color: #444;
+}
+.row-wrapper .sub-wrapper {
+  position: relative;
+}
+.row-wrapper .sub-wrapper .border-right-col {
+  position: absolute;
+  top: 45%;
+  left: 63%;
+  background-color: #888888;
+  font-size: 1px;
+  width: 200px;
+  transform: rotate(90deg);
 }
