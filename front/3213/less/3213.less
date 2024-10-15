@@ -1,16 +1,22 @@
 @text-sub-color: #827f7f;
-@fs-heading-secondary: 30px;
-@fs-heading-sub: 20px;
-@fs-text-sub: 14px;
 @text-color: #333;
 @text-sub-color: #444;
+@black-color: #000;
+@white-color: #fff;
+@border-color: #888888;
+
 @font-bold: 700;
 @font-medium: 500;
 @font-small: 300;
-@black-color: #000;
-@white-color: #fff;
+
+@fs-heading-secondary: 30px;
+@fs-heading-sub: 20px;
+@fs-text-sub: 14px;
+@border-width: 200px;
+
 
 .row-wrapper {
+    margin-top: 50px;
 
     .heading-secondary {
         font-size: @fs-heading-secondary;
@@ -75,6 +81,20 @@
 
         i {
             color: @text-sub-color;
+        }
+    }
+
+    .sub-wrapper {
+        position: relative;
+
+        .border-right-col {
+            position: absolute;
+            top: 45%;
+            left: 63%;
+            background-color: @border-color;
+            font-size: 1px;
+            width: @border-width;
+            transform: rotate(90deg);
         }
     }
 }

@@ -23,7 +23,6 @@ $less = new lessc;
 $less->compileFile('less/3213.less', 'css/3213.css');
 ?>
 
-!
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,7 +55,7 @@ $less->compileFile('less/3213.less', 'css/3213.css');
             </div>
 
             <div class="col-lg-7 col-md-8">
-                <div class="col-lg-6">
+                <div class="col-lg-6 sub-wrapper">
                     <span>Maketing</span>
                     <h3 class="heading-sub">Build your media and public presence</h3>
                     <p>Lorem ispum dolor sit amet, consectetur adipiscing elit seeiusmod tempor in ci did</p>
@@ -64,6 +63,7 @@ $less->compileFile('less/3213.less', 'css/3213.css');
                         <span class="text-sub">View more</span>
                         <i class="fa-solid fa-arrow-right"></i>
                     </a>
+                    <hr class="border-right-col" />
                 </div>
 
                 <div class="col-lg-6">
