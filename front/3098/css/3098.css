@@ -110,6 +110,11 @@ body {
   align-items: center;
   gap: 8px;
 }
+.footer ul .flex-touch .touch-head {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
 .footer ul .flex-touch span {
   display: block;
 }
