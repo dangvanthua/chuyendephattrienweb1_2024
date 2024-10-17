@@ -27,7 +27,7 @@ $less->compileFile('less/3213.less', 'css/3213.css');
 <html lang="en">
 
 <head>
-    <title>3213 - Course Information</title>
+    <title>3213</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/3213.css">
