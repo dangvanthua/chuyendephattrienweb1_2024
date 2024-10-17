@@ -133,6 +133,7 @@ body {
 .footer ul .flex-touch:hover .icon-touch {
   transform: rotateY(180deg);
   color: #ff4500;
+  border-color: #ff4500;
 }
 .footer .social-icons a {
   color: #fff;
