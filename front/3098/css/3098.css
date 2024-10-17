@@ -30,6 +30,10 @@ body {
   border-radius: 5px 0 0 5px;
   margin-right: -5px;
 }
+.newsletter input[type="email"]:focus {
+  outline: none;
+  border: none;
+}
 .newsletter button {
   background-color: #ff4500;
   border: none;
@@ -62,7 +66,7 @@ body {
   }
 }
 .footer {
-  padding: 40px 0;
+  padding-top: 80px;
 }
 .footer .col {
   margin-bottom: 20px;
@@ -139,4 +143,16 @@ body {
   text-align: center;
   border-radius: 50%;
   background-color: #111;
+}
+.footer .copyright {
+  text-align: center;
+  border-top: 1px solid #8a8a8a;
+}
+.footer .copyright .copyright-text {
+  padding: 20px 0;
+  font-size: 18px;
+}
+.footer .copyright .copyright-text span {
+  color: #ff4500;
+  cursor: pointer;
 }

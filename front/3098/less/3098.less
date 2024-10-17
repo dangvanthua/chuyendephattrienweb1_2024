@@ -44,6 +44,11 @@ body {
         border: none;
         border-radius: 5px 0 0 5px; 
         margin-right: -5px;
+
+        &:focus {
+            outline: none;
+            border: none;
+        }
     }
 
     button {
@@ -84,7 +89,7 @@ body {
 }
 
 .footer {
-    padding: 40px 0;
+    padding-top: 80px;
 
     .col {
         margin-bottom: 20px;
@@ -176,6 +181,21 @@ body {
             text-align: center;
             border-radius: 50%;
             background-color: @background-dark;
+        }
+    }
+
+    .copyright {
+        text-align: center;
+        border-top: 1px solid #8a8a8a;
+
+        .copyright-text {
+            padding: 20px 0;
+            font-size: @font-size-medium;
+
+            span {
+                color: @primary-color;
+                cursor: pointer;
+            }
         }
     }
 }
