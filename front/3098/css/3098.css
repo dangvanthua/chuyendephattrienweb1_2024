@@ -142,7 +142,12 @@ body {
   line-height: 40px;
   text-align: center;
   border-radius: 50%;
-  background-color: #111;
+  background-color: rgba(255,255,255,0.2);
+  transition: all 0.5s ease-in-out;
+}
+.footer .social-icons a:hover {
+  background-color: #ff4500;
+  border-radius: 12px;
 }
 .footer .copyright {
   text-align: center;
