@@ -9,7 +9,7 @@
 @font-size-large: 36px;
 @font-size-responsive: 30px;
 @font-size-medium: 18px;
-@padding-base: 68px;
+@padding-base: 80px 68px;
 
 body {
     background-color: @background-black;
@@ -25,26 +25,28 @@ body {
     background-color: @primary-color;
     display: flex;
     justify-content: space-between; 
+    gap: 100px;
     align-items: center; 
 
     h2 {
         font-size: @font-size-large;
         font-weight: bold;
+        text-wrap: nowrap;
     }
 
     .input-container {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
         z-index: 100;
     }
 
     input[type="email"] {
-        width: 300px;
-        padding: 10px;
+        width: 100%;
+        padding: 20px;
         border: none;
         border-radius: 5px 0 0 5px; 
-        margin-right: -5px;
 
         &:focus {
             outline: none;
@@ -55,7 +57,7 @@ body {
     button {
         background-color: @primary-color;
         border: none;
-        padding: 10px 20px;
+        padding: 20px 30px;
         color: @text-color;
         border-radius: 0 5px 5px 0; 
         i {

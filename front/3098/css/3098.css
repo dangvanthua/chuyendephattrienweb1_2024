@@ -5,30 +5,32 @@ body {
 }
 .newsletter {
   position: relative;
-  padding: 68px;
+  padding: 80px 68px;
   color: #fff;
   text-align: center;
   background-color: #ff4500;
   display: flex;
   justify-content: space-between;
+  gap: 100px;
   align-items: center;
 }
 .newsletter h2 {
   font-size: 36px;
   font-weight: bold;
+  text-wrap: nowrap;
 }
 .newsletter .input-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   z-index: 100;
 }
 .newsletter input[type="email"] {
-  width: 300px;
-  padding: 10px;
+  width: 100%;
+  padding: 20px;
   border: none;
   border-radius: 5px 0 0 5px;
-  margin-right: -5px;
 }
 .newsletter input[type="email"]:focus {
   outline: none;
@@ -37,7 +39,7 @@ body {
 .newsletter button {
   background-color: #ff4500;
   border: none;
-  padding: 10px 20px;
+  padding: 20px 30px;
   color: #fff;
   border-radius: 0 5px 5px 0;
 }
