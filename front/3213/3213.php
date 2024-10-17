@@ -27,14 +27,14 @@ $less->compileFile('less/3213.less', 'css/3213.css');
 <html lang="en">
 
 <head>
-    <title></title>
+    <title>3213 - Course Information</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/3213.css" />
+    <link rel="stylesheet" href="./css/3213.css">
     <link rel="stylesheet" href="./css//bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -43,7 +43,7 @@ $less->compileFile('less/3213.less', 'css/3213.css');
 <body>
     <div class="container">
         <div class="row row-wrapper">
-            <div class="col-lg-5 col-md-4">
+            <div class="col-lg-5 col-md-4 part-primary">
                 <span>01 Departments</span>
                 <h2 class="heading-secondary">The Courses</h2>
                 <p>Lorem ispum dolor sit amet, consectetur adipiscing elit seeiusmod tempor incididunt ut labore et
@@ -63,7 +63,7 @@ $less->compileFile('less/3213.less', 'css/3213.css');
                         <span class="text-sub">View more</span>
                         <i class="fa-solid fa-arrow-right"></i>
                     </a>
-                    <hr class="border-right-col" />
+                    <hr class="border-right-col">
                 </div>
 
                 <div class="col-lg-6">

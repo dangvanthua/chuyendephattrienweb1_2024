@@ -24,110 +24,148 @@ $less->compileFile('less/3098.less', 'css/3098.css');
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>1354</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3098</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./css/3098.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <section class="newsletter-section text-center text-white">
-        <div class="newsletter-container">
-            <div class="newsletter-content">
-                <div class="newsletter-title">
-                    <h2 class="mb-4">Join Our Newsletter</h2>
-                </div>
-                <div class="newsletter-form-container">
-                    <form class="newsletter-form">
-                        <input type="email" class="form-control" placeholder="Your Email">
-                        <button type="submit" class="btn">
-                            <i class="fa fa-paper-plane"></i>
-                        </button>
-                    </form>
+    <div class="newsletter">
+        <h2>Join Our Newsletter</h2>
+        <div class="input-container">
+            <input type="email" placeholder="Your Email">
+            <button><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <div class="container footer">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <img alt="Repa logo" class="mb-3" height="50" src="./images/white-logo.png" width="100">
+                <p>
+                    Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Nt viverra eros euis mod Vestibu diam
+                    suspendisse adi pisc diam quis. Et id volutpat sit odio.
+                </p>
+                <div class="social-icons">
+                    <a href="#">
+                        <i class="fab fa-facebook-f">
+                        </i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter">
+                        </i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram">
+                        </i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-pinterest">
+                        </i>
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
-
-
-    <footer class="footer-section py-5">
-        <div class="footer-container">
-            <div class="footer-row">
-                <div class="footer-column">
-                    <div class="footer-logo">
-                        <img src="./images/white-logo.png" alt="Logo">
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam quam, ultricies ut leo
-                        non.</p>
-                    <div class="social-icons">
-                        <a href="#"><i class="social-icon fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="social-icon fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="social-icon fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="social-icon fa-brands fa-pinterest-p"></i></a>
-                    </div>
-                </div>
-                <div class="footer-column">
-                    <h5>Services</h5>
-                    <ul>
-                        <li><a href="#">PC Repair</a></li>
-                        <li><a href="#">Laptop Repair</a></li>
-                        <li><a href="#">Smartphone Repair</a></li>
-                        <li><a href="#">Tablet Repair</a></li>
-                        <li><a href="#">Mac Repair</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h5>Useful Links</h5>
-                    <ul>
-                        <li><a href="#">Conditions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Latest Blogs</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Our Mechanics</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h5>Get In Touch</h5>
-                    <ul>
-                        <div class="column-touch">
-                            <i class="fa fa-phone"></i>
-                            <div class="footer-text">
-                                <p>Phone</p>
-                                <p class="touch-text">+123 456 778</p>
-                            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5>
+                    Services
+                </h5>
+                <ul>
+                    <li>
+                        <i class="fas fa-square">
+                        </i>
+                        PC Repair
+                    </li>
+                    <li>
+                        <i class="fas fa-square">
+                        </i>
+                        Laptop Repair
+                    </li>
+                    <li>
+                        <i class="fas fa-square">
+                        </i>
+                        Smartphone Repair
+                    </li>
+                    <li>
+                        <i class="fas fa-square">
+                        </i>
+                        Tablet Repair
+                    </li>
+                    <li>
+                        <i class="fas fa-square">
+                        </i>
+                        Mac Repair
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5>
+                    Useful Links
+                </h5>
+                <ul>
+                    <li>
+                        <i class="fas fa-square">
+                        </i>
+                        Conditions
+                    </li>
+                    <li>
+                        <i class="fas fa-square">
+                        </i>
+                        Privacy Policy
+                    </li>
+                    <li>
+                        <i class="fas fa-square">
+                        </i>
+                        Latest Blogs
+                    </li>
+                    <li>
+                        <i class="fas fa-square">
+                        </i>
+                        Testimonials
+                    </li>
+                    <li>
+                        <i class="fas fa-square">
+                        </i>
+                        Our Mechanics
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5>
+                    Get In Touch
+                </h5>
+                <ul>
+                    <li class="flex-touch">
+                        <i class="fas fa-phone icon-touch">
+                        </i>
+                        <div>
+                            <span class="touch-head">Phone</span>
+                            <span>+123 456 778</span>
                         </div>
-                        <div class="column-touch">
-                            <i class="fa fa-envelope"></i>
-                            <div class="footer-text">
-                                <p>Email</p>
-                                <p class="touch-text">info@repa.com</p>
-                            </div>
-
+                    </li>
+                    <li class="flex-touch">
+                        <i class="fas fa-envelope icon-touch">
+                        </i>
+                        <div>
+                            <span class="touch-head">Email</span>
+                            <span>info@repa.com</span>
                         </div>
-                        <div class="column-touch">
-                            <i class="fa fa-map-marker"></i>
-                            <div class="footer-text">
-                                <p>Location</p>
-                                <p class="touch-text">Coral Way, Miami, Florida, 33169</p>
-                            </div>
+                    </li>
+                    <li class="flex-touch">
+                        <i class="fas fa-map-marker-alt icon-touch">
+                        </i>
+                        <div>
+                            <span class="touch-head">Location</span>
+                            <span>Coral Way, Miami, Florida, 33169</span>
                         </div>
-                    </ul>
-                </div>
+                    </li>
+                </ul>
             </div>
         </div>
-    </footer>
-
-
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </div>
 </body>
 
 </html>

@@ -6,13 +6,14 @@
 @border-color: #888888;
 
 @font-bold: 700;
-@font-medium: 500;
+@font-medium: 550;
 @font-small: 300;
 
 @fs-heading-secondary: 30px;
 @fs-heading-sub: 20px;
 @fs-text-sub: 14px;
 @border-width: 200px;
+@responsive-margin-bt: 24px;
 
 
 .row-wrapper {
@@ -95,6 +96,22 @@
             font-size: 1px;
             width: @border-width;
             transform: rotate(90deg);
+        }
+
+        @media (max-width: 1200px) {
+            .border-right-col {
+                display: none;
+            }
+
+            & {
+                margin-bottom: @responsive-margin-bt;               
+            }
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .part-primary {
+            margin-bottom: @responsive-margin-bt;
         }
     }
 }
